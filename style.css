@@ -1,0 +1,222 @@
+/* GLOBAL STYLING */
+body {
+font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+background-color: #f8f9fa;
+margin: 0;
+}
+
+h1, h2, h3 {
+font-weight: 700;
+}
+
+section {
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+/* HEADER */
+.logo {
+  width: 250px;
+  height: 250px;
+}
+
+.main-header {
+background: linear-gradient(135deg, #e0f7fa, #ffffff);
+border-bottom: 2px solid #dee2e6;
+}
+
+.main-header h1 {
+margin-top: 10px;
+color: #0d6efd;
+}
+
+/* NAVBAR CUSTOMIZATION */
+.navbar {
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+font-size: 25px;
+}
+
+.nav-link {
+font-weight: 600;
+}
+
+.nav-link:hover {
+color: #0d6efd !important;
+background-color: white;
+}
+
+/* GALLERY */
+.gallery-item {
+    width: 100%;
+    height: 250px; /* Adjust height as needed */
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer ;
+  transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+#gallery {
+  background: #f8f9fa;
+}
+
+
+/* IMAGE STYLING */
+img {
+border-radius: 12px;
+}
+
+.shadow {
+box-shadow: 0 4px 12px rgba(0,0,0,0.12) !important;
+}
+
+/* SERVICE SECTION */
+section h3 {
+margin-bottom: 15px;
+color: #0d6efd;
+}
+
+/* TABLE STYLING */
+.table {
+background: white;
+border-radius: 10px;
+overflow: hidden;
+}
+
+/* CONTACT FORM */
+form {
+background-color: white;
+}
+
+.form-control {
+border-radius: 8px;
+}
+
+.btn-info {
+font-weight: 600;
+border-radius: 8px;
+}
+
+/* FAQ ACCORDION */
+.accordion-button {
+font-weight: 600;
+}
+
+.contact {
+  background-color: aquamarine;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* CONTACT PAGE INFO BOX */
+
+.contact-info-box {
+  background: #fff;
+  border-radius: 12px;
+}
+
+.contact-info-box h3 {
+  color: #c2185b;
+}
+
+.contact-info-box p {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+/* Footer Links */
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 6px;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  padding-left: 5px;
+}
+
+/* Social Icons */
+.social-icons a {
+  color: white;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0d6efd;
+  transform: scale(1.1);
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cpy-text {
+  text-decoration: none;
+  color: yellow;
+}
+
+.home-image {
+  margin-top: 30px;
+}
+
+.profile-image {
+  height: 600px;
+  width: 400px;
+}
+
+/* ENHANCEMENT CARDS HOVER EFFECT */
+
+.card {
+transition: all 0.3s ease;
+}
+
+.card:hover {
+transform: translateY(-8px);
+box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+background-color: #8af1ec;
+}
+
+/* Enhancement title hover color */
+
+.card:hover h5 {
+color: #2f0df0;
+}
+
+/* Optional subtle border highlight */
+
+.card {
+border: 1px solid transparent;
+}
+
+.card:hover {
+border: 1px solid #0d2ff0;
+}
+
+/* Intake form highlight section */
+
+.intake-section {
+background-color: #fff200;
+}
+
+/* POLICY SECTION STYLE */
+
+.policy-card {
+border-left: 6px solid #0dcaf0;
+background-color: #f8fdff;
+}
