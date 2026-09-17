@@ -1,14 +1,9 @@
 // Initialize EmailJS safely after page loads
 document.addEventListener("DOMContentLoaded", function () {
-
 emailjs.init("6TOOsk0NMx6Z_MbyP");
-
 const contactForm = document.getElementById("contact-form");
-
 if (contactForm) {
-
 contactForm.addEventListener("submit", function (event) {
-
 event.preventDefault();
 
 emailjs.sendForm(
@@ -18,27 +13,42 @@ this
 )
 
 .then(function () {
-
 alert("Your message has been sent successfully!");
-
 contactForm.reset();
-
 })
 
 .catch(function (error) {
-
 alert("Message failed to send. Please try again.");
-
 console.log("EmailJS Error:", error);
-
 });
-
 });
-
 }
 
-});
+ // =========================================
+  // EXPANDABLE SERVICE IMAGES
+  // =========================================
 
+  const serviceImages = document.querySelectorAll(".service-image");
+
+  serviceImages.forEach(function (image) {
+
+    image.addEventListener("click", function () {
+
+      const expandedImage =
+        document.getElementById("expandedServiceImage");
+
+      if (expandedImage) {
+
+        expandedImage.src = this.src;
+        expandedImage.alt = this.alt;
+
+      }
+
+    });
+
+  });
+
+});
 
 // Modal image function (kept from your original file)
 function showImage(src) {
