@@ -180,6 +180,79 @@ font-weight: 600;
   width: 400px;
 }
 
+.info-card {
+  height: 100%;
+  padding: 30px;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.10);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.booking-card {
+  background: linear-gradient(135deg, #f8fdff, #e8f8fb);
+}
+
+.booking-placeholder {
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 20px;
+  border: 2px dashed #b7dfe7;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.booking-icon {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #0dcaf0;
+  color: #fff;
+  font-size: 30px;
+}
+
+.booking-placeholder .btn {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.booking-placeholder .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+.payment-list {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.payment-list li {
+  margin-bottom: 8px;
+}
+
+.bnpl-box {
+  padding: 18px;
+  margin-top: 20px;
+  border-radius: 12px;
+  background: #f1fbfd;
+  border-left: 4px solid #0dcaf0;
+}
+
+@media (max-width: 991px) {
+  .info-card {
+    padding: 25px 20px;
+  }
+
+  .booking-placeholder {
+    min-height: 300px;
+  }
+}
+
 /* ENHANCEMENT CARDS HOVER EFFECT */
 
 .card {
