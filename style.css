@@ -253,6 +253,72 @@ font-weight: 600;
   }
 }
 
+/* SERVICES CALL-TO-ACTION */
+
+.services-cta {
+  width: 100%;
+  padding: 22px 30px;
+  border-radius: 12px;
+
+  background: linear-gradient(
+    135deg,
+    #e8f8fb,
+    #f8fdff
+  );
+
+  border: 1px solid rgba(13, 202, 240, 0.25);
+
+  box-shadow:
+    0 3px 12px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+.services-cta h3 {
+  margin: 0;
+}
+
+.services-cta p {
+  color: #666;
+}
+
+.services-cta .btn {
+  white-space: nowrap;
+  border-radius: 25px;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.services-cta .btn:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .services-cta {
+    padding: 22px 18px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .services-cta .btn {
+    width: 100%;
+  }
+
+}
+
 /* ENHANCEMENT CARDS HOVER EFFECT */
 
 .card {
